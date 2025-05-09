@@ -1,0 +1,3 @@
+[submodule "edu-ciaa-fpga-verilog"]
+	path = edu-ciaa-fpga-verilog
+	url = https://github.com/gmsanchez/edu-ciaa-fpga-verilog.git
