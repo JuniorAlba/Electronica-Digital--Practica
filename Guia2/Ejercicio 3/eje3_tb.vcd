@@ -1,0 +1,131 @@
+$date
+	Sat May 10 10:28:24 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module eje3_tb $end
+$var parameter 32 ! DURATION $end
+$var reg 1 " a $end
+$var reg 1 # b $end
+$var reg 1 $ c $end
+$var reg 1 % clk $end
+$var reg 1 & d $end
+$var reg 1 ' reset $end
+$var integer 32 ( n [31:0] $end
+$scope module UUT $end
+$var wire 1 " A $end
+$var wire 1 # B $end
+$var wire 1 $ C $end
+$var wire 1 & D $end
+$var wire 1 % clk $end
+$var wire 1 ) fa $end
+$var wire 1 * fb $end
+$var wire 1 + fc $end
+$var wire 1 ' reset $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1100100 !
+$end
+#0
+$dumpvars
+x+
+x*
+x)
+bx (
+1'
+x&
+0%
+x$
+x#
+x"
+$end
+#100000
+1+
+0)
+0*
+0"
+0#
+0$
+0&
+b0 (
+0'
+#200000
+1)
+1"
+b1 (
+#300000
+1+
+0"
+1#
+b10 (
+#400000
+0+
+1"
+b11 (
+#500000
+1+
+0"
+0#
+1$
+b100 (
+#600000
+0+
+1"
+b101 (
+#700000
+0"
+1#
+b110 (
+#800000
+1+
+1"
+b111 (
+#900000
+1+
+0*
+0"
+0#
+0$
+1&
+b1000 (
+#1000000
+0+
+1"
+b1001 (
+#1100000
+0"
+1#
+b1010 (
+#1200000
+1+
+1"
+b1011 (
+#1300000
+0+
+0*
+0"
+0#
+1$
+b1100 (
+#1400000
+1+
+1"
+b1101 (
+#1500000
+0"
+1#
+b1110 (
+#1600000
+1*
+1"
+b1111 (
+#1700000
+b10000 (
+#11700000
