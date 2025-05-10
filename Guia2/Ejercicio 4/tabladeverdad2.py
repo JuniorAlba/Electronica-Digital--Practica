@@ -8,10 +8,10 @@ def bool_expr(A, B, C, D, E, F):
     not_E = int(not E)
     not_F = int(not F)
 
-    term1 = not_A or (B and not_C)
-    term2 = not_C or E or not_F
+    term1 = A or (B and not_C)
+    term2 = not_D or E or not_F
 
-    return term1 and term2
+    return (term1 and term2)
 
 print(" A B C D E F | Y")
 print("-"*20)

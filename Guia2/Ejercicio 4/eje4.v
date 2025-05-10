@@ -14,7 +14,7 @@ module eje4 (
 
     // Operación lógica para la salida
     assign expresion1 = ~((A & ~B) | (~C & D) | (E & F));
-    assign expresion2 = ~(~(A | B & ~C) | D & ~(E | ~F));
-    assign expresion3 = ~(~A&B & (C&D | ~E&F) & (~(A&B) | ~(C&D)));
+    assign expresion2 = ~(~(A | B&~C) | (D&~(E | ~F)));
+    assign expresion3 = ~(~(A&B) & (C&D | ~E&F) & (~(A&B) | ~(C&D)));
 
 endmodule

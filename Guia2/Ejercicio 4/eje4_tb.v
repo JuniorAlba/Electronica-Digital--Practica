@@ -4,10 +4,10 @@
 module eje4_tb();
 
 //-- Parámetro para definir cuánto dura la simulación
-parameter DURATION = 100; // Cambiá esto según lo que necesites
+parameter DURATION = 1000; // Cambiá esto según lo que necesites
 
 //-- Señales de entrada del módulo
-reg clk = 0;
+reg clk ;
 reg reset;
 reg a;
 reg b;
@@ -38,6 +38,7 @@ integer n;
 //-- Bloque inicial: estímulos y configuración
 initial begin
   // Archivo para almacenar la traza
+  clk= 0;
   $dumpfile("eje4_tb.vcd");
   $dumpvars(0, eje4_tb);
   reset = 1;
@@ -45,15 +46,20 @@ initial begin
   reset = 0;
 
   // Generar estímulos para las entradas
-  $display("ABCDEF | expresion1 | expresion2 | expresion3 \n");
+  $strobe("ABCDEF | expresion1 | expresion2 | expresion3 \n");
   for (n = 0; n < 64; n = n + 1) begin
     {a, b, c, d, e, f} = n; // Asignar valores a las entradas, transforma n en binario y asigna a las entradas
-    $display("%b%b%b%b%b%b | %b | %b | %b", a, b, c, d, e, f, expresion1, expresion2, expresion3);
     #1; // Esperar un ciclo de reloj
+    $fflush();
+    $strobe("%b%b%b%b%b%b | %b ", a, b, c, d, e, f, expresion3);
+    #1;
+    //realizo el display despues de agregar un delay para que se lleguen a propagar los valores internos y utilizo strobe pq con display se llena el buffer
   end
 
   // Finalizar simulación
-  #(DURATION) $display("Fin de la simulación");
+  #(DURATION) $strobe("Fin de la simulación");
+
+  #2
   $finish;
 end
 
