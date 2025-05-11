@@ -1,0 +1,266 @@
+$date
+	Sun May 11 15:47:15 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module eje9_tb $end
+$var parameter 32 ! DURATION $end
+$var reg 1 " A $end
+$var reg 1 # B $end
+$var reg 1 $ C $end
+$var reg 1 % D $end
+$var reg 1 & E $end
+$var reg 1 ' clk $end
+$var reg 1 ( reset $end
+$var integer 32 ) n [31:0] $end
+$scope module UUT $end
+$var wire 1 " A $end
+$var wire 1 # B $end
+$var wire 1 $ C $end
+$var wire 1 % D $end
+$var wire 1 & E $end
+$var wire 1 * a1 $end
+$var wire 1 + a2 $end
+$var wire 1 , b1 $end
+$var wire 1 - b2 $end
+$var wire 1 . c1 $end
+$var wire 1 / c2 $end
+$var wire 1 ' clk $end
+$var wire 1 0 d1 $end
+$var wire 1 1 d2 $end
+$var wire 1 ( reset $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1100100 !
+$end
+#0
+$dumpvars
+x1
+x0
+x/
+x.
+x-
+x,
+x+
+x*
+bx )
+1(
+0'
+x&
+x%
+x$
+x#
+x"
+$end
+#100000
+11
+10
+1-
+1,
+0.
+0*
+0+
+0/
+0"
+0#
+0$
+0%
+0&
+b0 )
+0(
+#200000
+01
+00
+1&
+b1 )
+#300000
+01
+00
+0-
+0,
+1%
+0&
+b10 )
+#400000
+10
+11
+1&
+b11 )
+#500000
+00
+1,
+1-
+1.
+1/
+01
+1$
+0%
+0&
+b100 )
+#600000
+1&
+b101 )
+#700000
+1%
+0&
+b110 )
+#800000
+10
+11
+1&
+b111 )
+#900000
+0,
+1*
+00
+1+
+0-
+0.
+0/
+01
+1#
+0$
+0%
+0&
+b1000 )
+#1000000
+1&
+b1001 )
+#1100000
+10
+11
+1%
+0&
+b1010 )
+#1200000
+00
+01
+1&
+b1011 )
+#1300000
+0*
+0+
+1/
+1.
+1$
+0%
+0&
+b1100 )
+#1400000
+11
+10
+1&
+b1101 )
+#1500000
+10
+1%
+0&
+b1110 )
+#1600000
+00
+01
+1&
+b1111 )
+#1700000
+1-
+1,
+1.
+1"
+0#
+0$
+0%
+0&
+b10000 )
+#1800000
+1&
+b10001 )
+#1900000
+0-
+0,
+1%
+0&
+b10010 )
+#2000000
+10
+11
+1&
+b10011 )
+#2100000
+00
+0-
+1*
+01
+1+
+1$
+0%
+0&
+b10100 )
+#2200000
+1&
+b10101 )
+#2300000
+1-
+1,
+1%
+0&
+b10110 )
+#2400000
+1&
+b10111 )
+#2500000
+10
+11
+0*
+0+
+1/
+1,
+1#
+0$
+0%
+0&
+b11000 )
+#2600000
+00
+01
+1&
+b11001 )
+#2700000
+11
+10
+1%
+0&
+b11010 )
+#2800000
+1&
+b11011 )
+#2900000
+01
+0.
+0/
+1*
+1+
+00
+1$
+0%
+0&
+b11100 )
+#3000000
+1&
+b11101 )
+#3100000
+1%
+0&
+b11110 )
+#3200000
+1&
+b11111 )
+#3300000
+b100000 )
+#13300000
