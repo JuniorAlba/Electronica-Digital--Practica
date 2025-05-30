@@ -1,0 +1,98 @@
+$date
+	Fri May 30 10:26:27 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module ejercicio3b_tb $end
+$var wire 10 ! salida_tb [9:0] $end
+$var parameter 32 " DURATION $end
+$var reg 1 # clk $end
+$var reg 4 $ entrada_tb [3:0] $end
+$var reg 1 % reset $end
+$scope module UUT $end
+$var wire 1 # clk $end
+$var wire 4 & entrada [3:0] $end
+$var wire 1 % reset $end
+$var reg 10 ' salida [9:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1100100 "
+$end
+#0
+$dumpvars
+bx '
+bx &
+1%
+bx $
+0#
+bx !
+$end
+#100000
+b1 !
+b1 '
+b0 $
+b0 &
+0%
+#200000
+b10 !
+b10 '
+b1 $
+b1 &
+#300000
+b100 !
+b100 '
+b10 $
+b10 &
+#400000
+b1000 !
+b1000 '
+b11 $
+b11 &
+#500000
+b10000 !
+b10000 '
+b100 $
+b100 &
+#600000
+b100000 !
+b100000 '
+b101 $
+b101 &
+#700000
+b1000000 !
+b1000000 '
+b110 $
+b110 &
+#800000
+b10000000 !
+b10000000 '
+b111 $
+b111 &
+#900000
+b100000000 !
+b100000000 '
+b1000 $
+b1000 &
+#1000000
+b1000000000 !
+b1000000000 '
+b1001 $
+b1001 &
+#1100000
+bx !
+bx '
+b1110 $
+b1110 &
+#1200000
+b0 !
+b0 '
+b1111 $
+b1111 &
+#11200000

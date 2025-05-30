@@ -1,5 +1,5 @@
 $date
-	Fri May 30 09:51:14 2025
+	Fri May 30 10:28:43 2025
 $end
 $version
 	Icarus Verilog
@@ -8,7 +8,7 @@ $timescale
 	1ps
 $end
 $scope module ejercicio3a_tb $end
-$var wire 10 ! salida_tb [9:0] $end
+$var wire 4 ! salida_tb [3:0] $end
 $var parameter 32 " DURATION $end
 $var reg 1 # clk $end
 $var reg 10 $ i [9:0] $end
@@ -32,7 +32,7 @@ bx &
 1%
 bx $
 0#
-b0xxxx !
+bx !
 $end
 #100000
 b1111 !
@@ -91,7 +91,7 @@ b1001 '
 b1000000000 $
 b1000000000 &
 #1200000
-b0xxxx !
+bx !
 bx '
 b111111111 $
 b111111111 &

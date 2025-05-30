@@ -11,7 +11,7 @@ reg clk = 0;
 reg reset;
 
 reg [9:0] i ;
-input wire [9:0] salida_tb;
+input wire [3:0] salida_tb;
 //-- Instanciación del módulo bajo prueba
 ejercicio3a UUT (
     .clk(clk),
