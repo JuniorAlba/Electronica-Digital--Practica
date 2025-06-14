@@ -1,0 +1,234 @@
+$date
+	Fri May 30 15:42:10 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module ejercicio4_tb $end
+$var wire 7 ! hamming_code_tb [6:0] $end
+$var wire 4 " Gray_tb [3:0] $end
+$var wire 4 # BCD_tb [3:0] $end
+$var parameter 32 $ DURATION $end
+$var reg 4 % bin_nat_tb [3:0] $end
+$var reg 1 & clk $end
+$var reg 1 ' reset $end
+$var integer 32 ( i [31:0] $end
+$scope module UUT $end
+$var wire 4 ) bin_nat [3:0] $end
+$var wire 1 & clk $end
+$var wire 1 ' reset $end
+$var reg 4 * BCD [3:0] $end
+$upscope $end
+$scope module UUT2 $end
+$var wire 4 + bin_nat [3:0] $end
+$var wire 1 & clk $end
+$var wire 1 ' reset $end
+$var reg 4 , Gray [3:0] $end
+$upscope $end
+$scope module UUT3 $end
+$var wire 4 - bin_nat [3:0] $end
+$var wire 1 & clk $end
+$var wire 1 ' reset $end
+$var wire 7 . hamming_code [6:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1100100 $
+$end
+#0
+$dumpvars
+bx .
+bx -
+bx ,
+bx +
+bx *
+bx )
+bx (
+1'
+0&
+bx %
+bx #
+bx "
+bx !
+$end
+#100000
+b0 (
+0'
+#200000
+b0 "
+b0 ,
+b0 #
+b0 *
+b0 !
+b0 .
+b1 (
+b0 %
+b0 )
+b0 +
+b0 -
+#300000
+b1 #
+b1 *
+b1 "
+b1 ,
+b1101001 !
+b1101001 .
+b10 (
+b1 %
+b1 )
+b1 +
+b1 -
+#400000
+b11 "
+b11 ,
+b10 #
+b10 *
+b101010 !
+b101010 .
+b11 (
+b10 %
+b10 )
+b10 +
+b10 -
+#500000
+b11 #
+b11 *
+b10 "
+b10 ,
+b1000011 !
+b1000011 .
+b100 (
+b11 %
+b11 )
+b11 +
+b11 -
+#600000
+b110 "
+b110 ,
+b100 #
+b100 *
+b1001100 !
+b1001100 .
+b101 (
+b100 %
+b100 )
+b100 +
+b100 -
+#700000
+b101 #
+b101 *
+b111 "
+b111 ,
+b100101 !
+b100101 .
+b110 (
+b101 %
+b101 )
+b101 +
+b101 -
+#800000
+b101 "
+b101 ,
+b110 #
+b110 *
+b1100110 !
+b1100110 .
+b111 (
+b110 %
+b110 )
+b110 +
+b110 -
+#900000
+b111 #
+b111 *
+b100 "
+b100 ,
+b1111 !
+b1111 .
+b1000 (
+b111 %
+b111 )
+b111 +
+b111 -
+#1000000
+b1100 "
+b1100 ,
+b1000 #
+b1000 *
+b1110000 !
+b1110000 .
+b1001 (
+b1000 %
+b1000 )
+b1000 +
+b1000 -
+#1100000
+b1001 #
+b1001 *
+b1101 "
+b1101 ,
+b11001 !
+b11001 .
+b1010 (
+b1001 %
+b1001 )
+b1001 +
+b1001 -
+#1200000
+bx "
+bx ,
+bx #
+bx *
+b1011010 !
+b1011010 .
+b1011 (
+b1010 %
+b1010 )
+b1010 +
+b1010 -
+#1300000
+b110011 !
+b110011 .
+b1100 (
+b1011 %
+b1011 )
+b1011 +
+b1011 -
+#1400000
+b111100 !
+b111100 .
+b1101 (
+b1100 %
+b1100 )
+b1100 +
+b1100 -
+#1500000
+b1010101 !
+b1010101 .
+b1110 (
+b1101 %
+b1101 )
+b1101 +
+b1101 -
+#1600000
+b10110 !
+b10110 .
+b1111 (
+b1110 %
+b1110 )
+b1110 +
+b1110 -
+#1700000
+b1111111 !
+b1111111 .
+b10000 (
+b1111 %
+b1111 )
+b1111 +
+b1111 -
+#11700000
