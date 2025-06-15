@@ -13,7 +13,7 @@ module eje6_flipflopD(
                 .D(d[i]),
                 .clk(clk),
                 .q(q[i])
-            )
+            );
         end
     endgenerate
     /*
@@ -41,7 +41,7 @@ generate
             .d(d[i]),
             .enable(enable),
             .q(q(i))
-        )
+        );
     end
 endgenerate
 endmodule
