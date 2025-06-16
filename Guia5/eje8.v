@@ -2,10 +2,10 @@ module eje8(
     input d,
     input clk,
     input R_L,
-    output q3,
-    output q2,
-    output q1,
-    output q0
+    output wire q3,
+    output wire q2,
+    output wire q1,
+    output wire q0
 );
 
 
