@@ -49,6 +49,7 @@ contador2 cuenta(
 assign LED0 = num[0];
 assign LED1 = num[1];
 assign LED2 = num[2];
+assign LED3 = lleno;
 
 
 
