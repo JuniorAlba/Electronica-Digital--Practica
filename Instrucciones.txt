@@ -1,0 +1,2 @@
+.\apio_venv\Scripts\activate
+apio init -b edu-ciaa-fpga
